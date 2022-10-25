@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:#CCCCCC;
+}
+#container{
+    background-color: white;
+    max-width:900px;
+    margin:0px auto;
+    
+}
+#header{
+    height:180px;
+    background: url(../img/logo3.jpg) no-repeat bottom #CCCCCC;
+}
+#header h1{
+    font-size: 3em;
+    color: white;
+    text-transform:uppercase;
+    padding-left: 170px;
+    font-weight: 400;
+}
+
+#sidebar{
+    float:right;
+    width:24.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999%;
+}
+#content{
+    float:right;
+    width:74.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999%;
+}
+#clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#content .news{
+    margin:20px 50px 40px 20px;
+    text-align: justify;
+}
+#content .news h2{
+    font-size:1.5em;
+    padding: 2px 5px;
+    background-color: #996600;
+    color:white;
+
+}
+#content .news p{
+    color: #657030;
+    line-height: 1.5;
+    padding: 15px 0px 40px 0px;
+}
+#content .news p img{
+    float:left;
+    margin-right: 20px;
+}
+
+#sidebar .block{
+    background: white;
+    margin-top:20px;
+    padding-bottom: 40px;
+    text-align:center
+}
+#sidebar .block h3{
+    background-color:#CCCCCC;
+}
+
+#sidebar .block ul{
+    list-style-type: none;
+}
+#sidebar .block ul li a{
+    text-decoration: none;
+    display:inline-block;
+    color:#657030;
+    line-height: 30px;
+}
+#sidebar .block ul li a:hover{
+    color:#996600;
+    text-decoration: underline;
+}
+#footer {
+    clear:both;
+    background-color:#DB9D66;
+    text-align:center;
+    padding-bottom: 40px;
+}
+#footer p{
+    color:white;
+}
